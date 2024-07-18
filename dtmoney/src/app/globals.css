@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --income: #2ecc71;
+  --outcome: #c0392b;
+  --header: #5429cc;
+  --button: #6933ff;
+}

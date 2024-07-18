@@ -1,0 +1,31 @@
+.header_container {
+  width: 100%;
+  max-width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  background-color: #f0f0f009;
+}
+
+.page_logo_container {
+  display: flex;
+  align-items: center;
+  margin-left: calc(20px + 1vw);
+}
+
+.page_logo_container h1 {
+  font-size: max(1.2em, calc(1vw + 1em));
+}
+
+.page_logo_container h1:hover {
+  color: blue;
+  padding-bottom: calc(1.5vh + 0.2em);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.page_logo_container h1:not(:hover) {
+  transition: 0.3s;
+}

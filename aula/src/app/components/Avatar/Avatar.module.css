@@ -1,0 +1,56 @@
+.avatar_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  margin-right: calc(20px + 1vw);
+}
+
+.avatar_container img {
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+}
+
+.avatar_container input[type="checkbox"] {
+  display: none;
+}
+
+.avatar_container input[type="checkbox"]:checked ~ .avatar_card {
+  transform: translateX(0%);
+}
+
+.avatar_card {
+  transform: translateX(120%);
+  background: #21304a;
+  width: 20em;
+  height: 10em;
+  padding: 0.5em 1em;
+  position: absolute;
+  right: 0;
+  border-radius: 10px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.avatar_card img {
+  width: 7em;
+  height: 7em;
+}
+
+.avatar_card label {
+  margin-left: 1em;
+  color: #f0f0f0;
+}
+
+.avatar_card p {
+  font-weight: 600;
+}
+
+.avatar_card span {
+  font-size: 0.7em;
+  opacity: 0.8;
+}
