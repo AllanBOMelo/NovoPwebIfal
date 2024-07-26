@@ -7,4 +7,11 @@
   --outcome: #c0392b;
   --header: #5429cc;
   --button: #6933ff;
+  --main-bg: #f0f2f5;
+  --title: #363f5f;
+}
+
+body {
+  background: var(--main-bg);
+  -webkit-font-smoothing: antialiased;
 }
